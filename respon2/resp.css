@@ -1,0 +1,158 @@
+    @media (max-width:600px) {
+
+        .wrap {
+            width: 96%;
+            margin: auto;
+        }
+
+        .main {
+            background: url(img/mobile-main_fin.jpg);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        header {
+            flex-direction: column;
+        }
+
+        .logo {
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        .main .logo img {
+            width: 150px;
+        }
+
+        header .nav ul li {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        header .nav ul li a {
+            font-size: 0.95rem;
+        }
+
+        header .tmenu {
+            display: none;
+        }
+
+        .sec1 {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 10px;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .sec1 p {
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        .five {
+            width: 96%;
+        }
+
+        .column {
+            float: left;
+            width: 20%;
+            padding: 10px;
+        }
+
+        .sec1 .five .column img {
+            width: 19%;
+        }
+
+        .sec1 .container img {
+            width: 34%;
+        }
+
+        .sec1 .sec1-m {
+            font-size: 0.8rem;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+
+        .sec2 .sec2-t img {
+            display: none;
+        }
+
+        .sec2 {
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+
+        .sec2 .sec2-t {
+            margin-top: 40px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 1.3rem;
+            flex-direction: column;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 70vh;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 70%;
+            height: 100%;
+
+        }
+
+        .sec3 {
+            width: 96%;
+            background: url(img/mobile-brand.jpg);
+            margin-bottom: 0px;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 55vh;
+            background-color: aqua;
+        }
+
+        .sec4 {
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        .sec4 .sec4-t {
+            flex-direction: column;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+            text-align: center;
+        }
+
+        .sec4-t img {
+            display: none;
+        }
+
+        .sec4 .sec4-c {
+            width: 96%;
+            flex-direction: column;
+        }
+
+        .sec4 .sec4-c .insta {
+            width: 50%;
+        }
+
+        .sec4 .sec4-c iframe {
+            width: 96%;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+
+        .foot {
+            height: auto;
+        }
+
+        .foot .f1,
+        .f2 {
+            display: none;
+        }
+    }

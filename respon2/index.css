@@ -1,0 +1,341 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .wrap {
+        width: 1600px;
+        margin: auto;
+    }
+
+    .logo {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -70px;
+    }
+
+    header .nav {
+        margin-left: 10px;
+        width: max-content;
+    }
+
+    header .nav ul li {
+        display: inline-block;
+        padding: 30px 30px;
+    }
+
+    header .nav ul li a:nth-child(1):hover {
+        color: black;
+    }
+
+    header .nav ul li a:nth-child(2):hover {
+        color: black;
+    }
+
+    header .nav ul li a:nth-child(3):hover {
+        color: black;
+    }
+
+    header .nav ul li a:nth-child(4):hover {
+        color: black;
+    }
+
+    header .nav ul li a {
+        text-decoration: none;
+        color: dimgrey;
+        font-size: 23px;
+        /*font*/
+        font-family: "Gilda Display", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    header .tmenu {
+        width: max-content;
+        margin-right: 15px;
+    }
+
+    header .tmenu ul li {
+        display: inline-block;
+        text-align: center;
+        /*text-align center는 block에 주어야함, 글씨 자체에 주면 안됨*/
+        padding: 30px 15px;
+    }
+
+    header .tmenu ul li a {
+        text-decoration: none;
+        color: dimgrey;
+        font-size: 15px;
+        font-family: "Gilda Display", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    header .tmenu ul li img {
+        padding-top: 5px;
+        margin-bottom: 2px;
+    }
+
+    .main {
+        background: url(img/main%20visual_fin.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100vh;
+    }
+
+    .main .logo img {
+        width: 250px;
+    }
+
+    .sec1 {
+        padding-top: 60px;
+        padding-bottom: 45px;
+        background-color: whitesmoke;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 30px;
+        margin-bottom: 0px;
+        /*font*/
+        font-family: "Gilda Display", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .sec1 p {
+        margin-bottom: 10px;
+    }
+
+    .sec1 .sec1-m {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        /*font*/
+        font-family: "Gilda Display", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+    }
+
+    .sec1 .sec1-m p {
+        padding: 7px 0;
+    }
+
+    /* The grid: Four equal columns that floats next to each other */
+    .five {
+        width: 1200px;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .column {
+        float: left;
+        width: 18%;
+        padding: 10px;
+    }
+
+    /* Style the images inside the grid */
+    .column img {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    .column img:hover {
+        opacity: 1;
+    }
+
+    /* Clear floats after the columns */
+    .five:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* The expanding image container */
+    .container {
+        position: relative;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .container img {
+        width: 20%;
+    }
+
+    /* Expanding image text */
+    #imgtext {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        color: white;
+        font-size: 20px;
+    }
+
+    /* Closable button inside the expanded image */
+    .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
+
+    .sec2 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    .swiper {
+        width: 600px;
+        height: 700px;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 70%;
+        height: 80%;
+
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: #999999;
+    }
+
+    .sec2 .sec2-t {
+        margin-bottom: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /*font*/
+        font-size: 30px;
+        font-family: "Gilda Display", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .sec3 {
+        width: 1300px;
+        margin-bottom: 120px;
+        background: url(img/brand%20intro.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 95vh;
+    }
+
+    .sec4 {
+        text-align: center;
+        font-family: "Gilda Display", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+
+    .sec4 .sec4-t {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .sec4 .sec4-c {
+        width: 1300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sec4 .sec4-c .insta {
+        width: 30%;
+    }
+
+    .sec4 .sec4-c img {
+        width: 100%;
+    }
+
+    .sec4 .sec4-c iframe {
+        width: 700px;
+        height: 400px;
+    }
+
+    footer {
+        background-color: gainsboro;
+        height: 180px;
+    }
+
+    .foot {
+        font-family: "Noto Sans KR", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300px;
+        font-style: normal;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .foot .f1 {
+        padding: 5px 20PX;
+        margin-top: 15px;
+    }
+
+    .foot .f1 a {
+        text-decoration: none;
+        color: dimgray;
+        font-size: 12px;
+    }
+
+    .foot .f1 .sns {
+        padding: 10px 0;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .foot .f2 {
+        margin-top: 15px;
+        padding: 10px 0;
+        font-size: 12px;
+        color: dimgray;
+    }
+
+    .foot .f2 .ff2 {
+        padding: 5px 0;
+    }
+
+    .foot .f3 {
+        margin-top: 15px;
+        padding: 10px 0;
+        font-size: 12px;
+        color: dimgray;
+    }
+
+    .foot .f3 .ff3 {
+        padding: 5px 0;
+    }
+
+    .foot .f4 {
+        margin-top: 15px;
+        padding: 10px 0;
+        font-size: 12px;
+        color: dimgray;
+    }
